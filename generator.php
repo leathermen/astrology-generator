@@ -14,16 +14,8 @@ function getPrognosysList()
     ];
 }
 
-/*function getRandomPrognosys()
+function getRandomPrognosys()
 {
     $prognosysList = getPrognosysList();
     //To implement
-}*/
-
-function getRandomPrognosys()
-{
-$key = array_rand(getPrognosysList(), 1);
-$prognosysList = getPrognosysList()[$key];
-return $prognosysList;
 }
-
